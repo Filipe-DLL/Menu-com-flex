@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;800&display=swap');
+
+
+.header{
+    font-family: 'Public Sans', sans-serif;
+    font-size: 15px;
+    margin: 45px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.header .logo{
+    display: flex;
+}
+
+.header .logo p{
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.header .thebank{
+    display: flex;
+    align-items: center;
+}
+
+.header .lista{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.header .lista li a{
+    padding: 11px 7px 11px 6px;
+    transition: 0.3s ease-in-out;
+}
+
+.header .lista li a:hover {
+    background: #5BC241;
+    color: #FFFFFF;
+}
+
+.header .lista .cadastre-se a{
+    background: #5BC241;
+    color: #FFFFFF;
+    padding: 10px 21px 11px 21px;
+    border-radius: 10px;
+}

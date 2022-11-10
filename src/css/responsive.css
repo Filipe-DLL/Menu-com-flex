@@ -1,0 +1,28 @@
+@media (max-width: 770px){
+    .header{
+        font-size: 40px;
+        flex-direction: column;
+    }
+    .header .logo{
+        justify-content: center;
+        margin-bottom: 100px;
+    }
+    .header .logo p{
+        margin-left: 8px;
+        font-size: 40px;
+        font-weight: 800;
+    }
+    .header .lista{
+        flex-direction: column;
+        gap: 50px;
+    }
+    .header .lista li a{
+        padding: 17px 38px 17px 41px;
+    }
+    .header .lista .cadastre-se {
+        font-size: 28px;
+        font-weight: 300;
+        margin-top: 20px;
+        padding: 15px 22px 15px 23px;
+    }
+}
